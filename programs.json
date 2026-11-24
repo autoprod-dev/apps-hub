@@ -9,7 +9,7 @@
       "description": "Fitness app for coaches and solo trainees, with food logging, Snap meal and team tools.",
       "status": "Live",
       "url": "https://www.weightclassonline.com.au",
-      "icon": "💪",
+      "icon": "\ud83d\udcaa",
       "accent": "#f97316"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Owner admin page: accounts, access, join dates and how each person signed up.",
       "status": "Live",
       "url": "https://www.weightclassonline.com.au/app/admin.html",
-      "icon": "🛠️",
+      "icon": "\ud83d\udee0\ufe0f",
       "accent": "#f97316"
     },
     {
@@ -27,7 +27,7 @@
       "description": "Turn a menu, PDF or spreadsheet into kitchen prep lists sorted by dish, station and day.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/preplist-sorter/",
-      "icon": "🔪",
+      "icon": "\ud83d\udd2a",
       "accent": "#22c55e"
     },
     {
@@ -36,7 +36,7 @@
       "description": "New Prepline interface, with a universal importer and one-page checklist prints.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/prepline-2027/",
-      "icon": "✨",
+      "icon": "\u2728",
       "accent": "#34d399"
     },
     {
@@ -45,7 +45,7 @@
       "description": "Full Prepline, set up for the team to use together.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/prepline-team/",
-      "icon": "👥",
+      "icon": "\ud83d\udc65",
       "accent": "#22c55e"
     },
     {
@@ -54,7 +54,7 @@
       "description": "Convert and work with almost any file in the browser.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/unifile/",
-      "icon": "📁",
+      "icon": "\ud83d\udcc1",
       "accent": "#38bdf8"
     },
     {
@@ -63,8 +63,17 @@
       "description": "Log foods a little one tries and get gentle ideas for what to offer next.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
-      "icon": "🍎",
+      "icon": "\ud83c\udf4e",
       "accent": "#fb7185"
+    },
+    {
+      "id": "proximity",
+      "name": "Proximity",
+      "description": "Weighs form, injuries, the market and more, then ranks a likely winner for a match, fight or race.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/proximity/",
+      "icon": "\ud83c\udfaf",
+      "accent": "#3dd68c"
     },
     {
       "id": "prepline-trial",
@@ -72,7 +81,7 @@
       "description": "Trial build of Prepline for trying new features before they go into the main app.",
       "status": "Test",
       "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -81,7 +90,7 @@
       "description": "Test copy of Prepline, including test payments.",
       "status": "Test",
       "url": "https://autoprod-dev.github.io/prepline-test/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -90,7 +99,7 @@
       "description": "Test copy of Unifile, including test payments.",
       "status": "Test",
       "url": "https://autoprod-dev.github.io/unifile-test/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -99,7 +108,7 @@
       "description": "Snap a meal for a fancy menu, a chef roast, or dinner ideas from your fridge.",
       "status": "Test",
       "url": "https://autoprod-dev.github.io/snootfood-test/",
-      "icon": "🍜",
+      "icon": "\ud83c\udf5c",
       "accent": "#f59e0b"
     },
     {
@@ -108,7 +117,7 @@
       "description": "Track IV fluid restock: receive, walk, pick, deliver and order.",
       "status": "Test",
       "url": "https://autoprod-dev.github.io/ward-restock-test/",
-      "icon": "💧",
+      "icon": "\ud83d\udca7",
       "accent": "#38bdf8"
     },
     {
@@ -117,7 +126,7 @@
       "description": "Lemon Squeezy storefront. Still under review, not taking real payments yet.",
       "status": "Test",
       "url": "https://autoprod-dev.lemonsqueezy.com",
-      "icon": "🛒",
+      "icon": "\ud83d\uded2",
       "accent": "#a855f7"
     },
     {
@@ -126,7 +135,7 @@
       "description": "From work orders and rosters through to a finished prep list, in ordered steps.",
       "status": "Prototype",
       "url": "https://autoprod-dev.github.io/prepline-pipeline/",
-      "icon": "🧭",
+      "icon": "\ud83e\udded",
       "accent": "#2dd4bf"
     },
     {
@@ -135,7 +144,7 @@
       "description": "Scores ASX and US shares plus gold and silver, with a plain Looks good, Wait or Avoid label.",
       "status": "Prototype",
       "url": null,
-      "icon": "📈",
+      "icon": "\ud83d\udcc8",
       "accent": "#22c55e"
     },
     {
@@ -144,7 +153,7 @@
       "description": "Flags Sydney and Philippines areas where new trains, malls or other works could lift values.",
       "status": "Prototype",
       "url": null,
-      "icon": "🏠",
+      "icon": "\ud83c\udfe0",
       "accent": "#fb923c"
     },
     {
@@ -153,7 +162,7 @@
       "description": "Turns a UBS event export into section work orders, allocation and a print pack.",
       "status": "Prototype",
       "url": null,
-      "icon": "📋",
+      "icon": "\ud83d\udccb",
       "accent": "#818cf8"
     },
     {
@@ -162,7 +171,7 @@
       "description": "Private trial of the kitchen UBS workflow, from filter through to a prep list.",
       "status": "Prototype",
       "url": null,
-      "icon": "🍳",
+      "icon": "\ud83c\udf73",
       "accent": "#c084fc"
     }
   ]
