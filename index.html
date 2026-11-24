@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#071418">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Autoprod Apps">
+<title>Autoprod Apps</title>
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  :root {
+    --bg: #071418;
+    --bg-2: #0b1e24;
+    --card: #12262c;
+    --card-hover: #173038;
+    --line: rgba(255,255,255,.08);
+    --text: #f4f7f8;
+    --muted: #8aa3a8;
+    --orange: #ff6a1a;
+    --orange-2: #ff8a3d;
+    --teal: #0d5c63;
+    --live: #16a34a;
+    --test: #d97706;
+    --proto: #64748b;
+    --radius: 18px;
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bot: env(safe-area-inset-bottom, 0px);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background:
+      radial-gradient(1200px 500px at 50% -10%, rgba(13,92,99,.45), transparent 60%),
+      var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    padding: calc(22px + var(--safe-top)) 20px 12px;
+    text-align: center;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .brand img {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  }
+  .brand h1 {
+    margin: 0;
+    font-size: 1.45rem;
+    letter-spacing: -.02em;
+    line-height: 1.15;
+  }
+  .brand h1 span {
+    display: block;
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .sub {
+    color: var(--muted);
+    margin: 10px 0 0;
+    font-size: .95rem;
+  }
+  .filters {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 16px 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .filters button {
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font: 650 13px/1.1 system-ui, sans-serif;
+    min-height: 40px;
+  }
+  .filters button[aria-pressed="true"] {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: #fff;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px 8px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  h2.group {
+    margin: 10px 4px 0;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 14px;
+    row-gap: 10px;
+    padding: 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    border-left: 5px solid var(--accent, var(--orange));
+  }
+  .icon {
+    grid-row: 1 / 2;
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    background: rgba(255,255,255,.05);
+    display: grid; place-items: center;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  .meta { grid-column: 2; min-width: 0; }
+  .title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+  }
+  .desc {
+    color: var(--muted);
+    font-size: .9rem;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+  .tag {
+    flex: 0 0 auto;
+    font-size: .65rem;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+    color: #fff;
+    background: var(--proto);
+  }
+  .tag.live { background: var(--live); }
+  .tag.test { background: var(--test); }
+  .actions {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: 12px;
+    background: var(--orange);
+    color: #fff;
+    font-weight: 700;
+    font-size: .95rem;
+    text-decoration: none;
+    border: 0;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn.secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--line);
+  }
+  .offline {
+    color: var(--muted);
+    font-size: .88rem;
+    font-weight: 600;
+    padding: 8px 2px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: .78rem;
+    padding: 16px 20px calc(28px + var(--safe-bot));
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.45;
+  }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 24px 8px;
+  }
+  @media (min-width: 720px) {
+    main { max-width: 980px; display: grid; grid-template-columns: 1fr 1fr; }
+    h2.group, .empty { grid-column: 1 / -1; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <img src="assets/logo.png" alt="Autoprod">
+    <h1><span>Autoprod</span> Launchpad</h1>
+  </div>
+  <p class="sub" id="subtitle">Every program, one tap away</p>
+</header>
+<nav class="filters" aria-label="Filter by status">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="Live">Live</button>
+  <button type="button" data-filter="Test">Test</button>
+  <button type="button" data-filter="Prototype">Prototype</button>
+</nav>
+<main id="list"></main>
+<footer>
+  Unlisted Autoprod apps page.<br>
+  <span id="updated"></span>
+</footer>
+<script type="application/json" id="programs-data">{
+  "title": "Autoprod Apps",
+  "subtitle": "Every program, one tap away",
+  "updated": "2026-11-24",
+  "programs": [
+    {
+      "id": "weightclass",
+      "name": "WeightClass HQ",
+      "description": "Fitness app for coaches and solo trainees, with food logging, Snap meal and team tools.",
+      "status": "Live",
+      "url": "https://www.weightclassonline.com.au",
+      "icon": "💪",
+      "accent": "#f97316"
+    },
+    {
+      "id": "weightclass-admin",
+      "name": "WeightClass Admin",
+      "description": "Owner admin page: accounts, access, join dates and how each person signed up.",
+      "status": "Live",
+      "url": "https://www.weightclassonline.com.au/app/admin.html",
+      "icon": "🛠️",
+      "accent": "#f97316"
+    },
+    {
+      "id": "prepline",
+      "name": "Prepline",
+      "description": "Turn a menu, PDF or spreadsheet into kitchen prep lists sorted by dish, station and day.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/preplist-sorter/",
+      "icon": "🔪",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "prepline-2027",
+      "name": "Prepline 2027",
+      "description": "New Prepline interface, with a universal importer and one-page checklist prints.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/prepline-2027/",
+      "icon": "✨",
+      "accent": "#34d399"
+    },
+    {
+      "id": "prepline-team",
+      "name": "Prepline Team",
+      "description": "Full Prepline, set up for the team to use together.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/prepline-team/",
+      "icon": "👥",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "unifile",
+      "name": "Unifile",
+      "description": "Convert and work with almost any file in the browser.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/unifile/",
+      "icon": "📁",
+      "accent": "#38bdf8"
+    },
+    {
+      "id": "toddler-food-explorer",
+      "name": "Toddler Food Explorer",
+      "description": "Log foods a little one tries and get gentle ideas for what to offer next.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
+      "icon": "🍎",
+      "accent": "#fb7185"
+    },
+    {
+      "id": "prepline-trial",
+      "name": "Prepline Trial",
+      "description": "Trial build of Prepline for trying new features before they go into the main app.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "prepline-test",
+      "name": "Prepline TEST",
+      "description": "Test copy of Prepline, including test payments.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/prepline-test/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "unifile-test",
+      "name": "Unifile TEST",
+      "description": "Test copy of Unifile, including test payments.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/unifile-test/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "snootfood",
+      "name": "Snootfood",
+      "description": "Snap a meal for a fancy menu, a chef roast, or dinner ideas from your fridge.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/snootfood-test/",
+      "icon": "🍜",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "ward-restock",
+      "name": "Ward Restock",
+      "description": "Track IV fluid restock: receive, walk, pick, deliver and order.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/ward-restock-test/",
+      "icon": "💧",
+      "accent": "#38bdf8"
+    },
+    {
+      "id": "autoprod-store",
+      "name": "Autoprod Store",
+      "description": "Lemon Squeezy storefront. Still under review, not taking real payments yet.",
+      "status": "Test",
+      "url": "https://autoprod-dev.lemonsqueezy.com",
+      "icon": "🛒",
+      "accent": "#a855f7"
+    },
+    {
+      "id": "prepline-pipeline",
+      "name": "Prepline Pipeline",
+      "description": "From work orders and rosters through to a finished prep list, in ordered steps.",
+      "status": "Prototype",
+      "url": "https://autoprod-dev.github.io/prepline-pipeline/",
+      "icon": "🧭",
+      "accent": "#2dd4bf"
+    },
+    {
+      "id": "invest-signals",
+      "name": "Invest Signals",
+      "description": "Scores ASX and US shares plus gold and silver, with a plain Looks good, Wait or Avoid label.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "📈",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "property-watch",
+      "name": "Property Watch",
+      "description": "Flags Sydney and Philippines areas where new trains, malls or other works could lift values.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "🏠",
+      "accent": "#fb923c"
+    },
+    {
+      "id": "kitchen-roster",
+      "name": "Kitchen Roster Planner",
+      "description": "Turns a UBS event export into section work orders, allocation and a print pack.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "📋",
+      "accent": "#818cf8"
+    },
+    {
+      "id": "kitchen-ubs-trial",
+      "name": "Kitchen UBS Trial",
+      "description": "Private trial of the kitchen UBS workflow, from filter through to a prep list.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "🍳",
+      "accent": "#c084fc"
+    }
+  ]
+}</script>
+<script>
+(function () {
+  const ORDER = ["Live", "Test", "Prototype"];
+  const TAG_CLASS = { Live: "live", Test: "test", Prototype: "proto" };
+  let data = { programs: [] };
+  let filter = "all";
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function actions(p) {
+    const url = p.url && String(p.url).trim();
+    const local = p.local && String(p.local).trim();
+    const bits = [];
+    if (url) {
+      bits.push(`<a class="btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Open</a>`);
+      if (local) {
+        bits.push(`<a class="btn secondary" href="${escapeHtml(local)}">Local copy</a>`);
+      }
+    } else if (local) {
+      bits.push(`<span class="offline">Not online yet</span>`);
+      bits.push(`<a class="btn" href="${escapeHtml(local)}">Open local copy</a>`);
+    } else {
+      bits.push(`<span class="offline">Not online yet</span>`);
+    }
+    return bits.join("");
+  }
+
+  function card(p) {
+    const status = ORDER.includes(p.status) ? p.status : "Prototype";
+    const accent = p.accent || "#ff6a1a";
+    return `<article class="card" style="--accent:${escapeHtml(accent)}" data-status="${escapeHtml(status)}">
+      <div class="icon" aria-hidden="true">${escapeHtml(p.icon || "◆")}</div>
+      <div class="meta">
+        <div class="title-row">
+          <div class="title">${escapeHtml(p.name)}</div>
+          <span class="tag ${TAG_CLASS[status] || "proto"}">${escapeHtml(status)}</span>
+        </div>
+        <div class="desc">${escapeHtml(p.description)}</div>
+      </div>
+      <div class="actions">${actions(p)}</div>
+    </article>`;
+  }
+
+  function render() {
+    const programs = Array.isArray(data.programs) ? data.programs : [];
+    const visible = filter === "all" ? programs : programs.filter(p => p.status === filter);
+    const root = document.getElementById("list");
+    if (!visible.length) {
+      root.innerHTML = `<p class="empty">No programs in this view.</p>`;
+      return;
+    }
+    if (filter !== "all") {
+      root.innerHTML = visible.map(card).join("");
+      return;
+    }
+    const html = [];
+    for (const status of ORDER) {
+      const group = visible.filter(p => p.status === status);
+      if (!group.length) continue;
+      html.push(`<h2 class="group">${status}</h2>`);
+      html.push(group.map(card).join(""));
+    }
+    root.innerHTML = html.join("");
+  }
+
+  document.querySelectorAll(".filters button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      filter = btn.getAttribute("data-filter") || "all";
+      document.querySelectorAll(".filters button").forEach(b => {
+        b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+      });
+      render();
+    });
+  });
+
+  async function load() {
+    let loaded = null;
+    try {
+      const res = await fetch("programs.json", { cache: "no-store" });
+      if (res.ok) loaded = await res.json();
+    } catch (e) { /* file:// or offline: use the inlined copy */ }
+    if (!loaded) {
+      try {
+        loaded = JSON.parse(document.getElementById("programs-data").textContent || "{}");
+      } catch (e) {
+        loaded = { programs: [] };
+      }
+    }
+    data = loaded || { programs: [] };
+    if (data.subtitle) document.getElementById("subtitle").textContent = data.subtitle;
+    const updated = data.updated ? `Updated ${data.updated}.` : "";
+    document.getElementById("updated").textContent = updated;
+    render();
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

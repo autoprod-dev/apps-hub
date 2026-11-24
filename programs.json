@@ -1,0 +1,169 @@
+{
+  "title": "Autoprod Apps",
+  "subtitle": "Every program, one tap away",
+  "updated": "2026-11-24",
+  "programs": [
+    {
+      "id": "weightclass",
+      "name": "WeightClass HQ",
+      "description": "Fitness app for coaches and solo trainees, with food logging, Snap meal and team tools.",
+      "status": "Live",
+      "url": "https://www.weightclassonline.com.au",
+      "icon": "💪",
+      "accent": "#f97316"
+    },
+    {
+      "id": "weightclass-admin",
+      "name": "WeightClass Admin",
+      "description": "Owner admin page: accounts, access, join dates and how each person signed up.",
+      "status": "Live",
+      "url": "https://www.weightclassonline.com.au/app/admin.html",
+      "icon": "🛠️",
+      "accent": "#f97316"
+    },
+    {
+      "id": "prepline",
+      "name": "Prepline",
+      "description": "Turn a menu, PDF or spreadsheet into kitchen prep lists sorted by dish, station and day.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/preplist-sorter/",
+      "icon": "🔪",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "prepline-2027",
+      "name": "Prepline 2027",
+      "description": "New Prepline interface, with a universal importer and one-page checklist prints.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/prepline-2027/",
+      "icon": "✨",
+      "accent": "#34d399"
+    },
+    {
+      "id": "prepline-team",
+      "name": "Prepline Team",
+      "description": "Full Prepline, set up for the team to use together.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/prepline-team/",
+      "icon": "👥",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "unifile",
+      "name": "Unifile",
+      "description": "Convert and work with almost any file in the browser.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/unifile/",
+      "icon": "📁",
+      "accent": "#38bdf8"
+    },
+    {
+      "id": "toddler-food-explorer",
+      "name": "Toddler Food Explorer",
+      "description": "Log foods a little one tries and get gentle ideas for what to offer next.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
+      "icon": "🍎",
+      "accent": "#fb7185"
+    },
+    {
+      "id": "prepline-trial",
+      "name": "Prepline Trial",
+      "description": "Trial build of Prepline for trying new features before they go into the main app.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "prepline-test",
+      "name": "Prepline TEST",
+      "description": "Test copy of Prepline, including test payments.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/prepline-test/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "unifile-test",
+      "name": "Unifile TEST",
+      "description": "Test copy of Unifile, including test payments.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/unifile-test/",
+      "icon": "🧪",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "snootfood",
+      "name": "Snootfood",
+      "description": "Snap a meal for a fancy menu, a chef roast, or dinner ideas from your fridge.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/snootfood-test/",
+      "icon": "🍜",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": "ward-restock",
+      "name": "Ward Restock",
+      "description": "Track IV fluid restock: receive, walk, pick, deliver and order.",
+      "status": "Test",
+      "url": "https://autoprod-dev.github.io/ward-restock-test/",
+      "icon": "💧",
+      "accent": "#38bdf8"
+    },
+    {
+      "id": "autoprod-store",
+      "name": "Autoprod Store",
+      "description": "Lemon Squeezy storefront. Still under review, not taking real payments yet.",
+      "status": "Test",
+      "url": "https://autoprod-dev.lemonsqueezy.com",
+      "icon": "🛒",
+      "accent": "#a855f7"
+    },
+    {
+      "id": "prepline-pipeline",
+      "name": "Prepline Pipeline",
+      "description": "From work orders and rosters through to a finished prep list, in ordered steps.",
+      "status": "Prototype",
+      "url": "https://autoprod-dev.github.io/prepline-pipeline/",
+      "icon": "🧭",
+      "accent": "#2dd4bf"
+    },
+    {
+      "id": "invest-signals",
+      "name": "Invest Signals",
+      "description": "Scores ASX and US shares plus gold and silver, with a plain Looks good, Wait or Avoid label.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "📈",
+      "accent": "#22c55e"
+    },
+    {
+      "id": "property-watch",
+      "name": "Property Watch",
+      "description": "Flags Sydney and Philippines areas where new trains, malls or other works could lift values.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "🏠",
+      "accent": "#fb923c"
+    },
+    {
+      "id": "kitchen-roster",
+      "name": "Kitchen Roster Planner",
+      "description": "Turns a UBS event export into section work orders, allocation and a print pack.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "📋",
+      "accent": "#818cf8"
+    },
+    {
+      "id": "kitchen-ubs-trial",
+      "name": "Kitchen UBS Trial",
+      "description": "Private trial of the kitchen UBS workflow, from filter through to a prep list.",
+      "status": "Prototype",
+      "url": null,
+      "icon": "🍳",
+      "accent": "#c084fc"
+    }
+  ]
+}
