@@ -76,6 +76,15 @@
       "accent": "#8b5cf6"
     },
     {
+      "id": "punchman",
+      "name": "Punchman",
+      "description": "v1.0.0 idle ring brawler by Autoprod: punch endless waves, spend gold on upgrades, talents and your crew. No energy.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/punchman/",
+      "icon": "🥊",
+      "accent": "#5a92d8"
+    },
+    {
       "id": "prepline-trial",
       "name": "Prepline Trial",
       "description": "Trial build of Prepline for trying new features before they go into the main app.",
