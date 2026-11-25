@@ -202,6 +202,26 @@
       "url": null,
       "icon": "🍳",
       "accent": "#c084fc"
+    },
+    {
+      "id": "achiever",
+      "name": "Achiever",
+      "description": "Speak or type a goal and get a step-by-step plan that favours a high chance of success, with as much as possible automated or handed off.",
+      "status": "Prototype",
+      "category": "Tools",
+      "url": null,
+      "icon": "🏆",
+      "accent": "#eab308"
+    },
+    {
+      "id": "sydney-parking-finder",
+      "name": "Sydney Parking Finder",
+      "description": "v1.1.0 · Uses GPS to find the nearest 1P to 5P parking in the City of Sydney, with walking directions and optional parked-here reports. Availability is not live sensor data.",
+      "status": "Prototype",
+      "category": "Tools",
+      "url": null,
+      "icon": "🅿️",
+      "accent": "#2563eb"
     }
   ]
 }
