@@ -10,7 +10,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://www.weightclassonline.com.au",
-      "icon": "💪",
+      "icon": "\ud83d\udcaa",
       "accent": "#f97316"
     },
     {
@@ -20,7 +20,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://www.weightclassonline.com.au/app/admin.html",
-      "icon": "🛠️",
+      "icon": "\ud83d\udee0\ufe0f",
       "accent": "#f97316"
     },
     {
@@ -30,7 +30,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/preplist-sorter/",
-      "icon": "🔪",
+      "icon": "\ud83d\udd2a",
       "accent": "#22c55e"
     },
     {
@@ -40,7 +40,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-2027/",
-      "icon": "✨",
+      "icon": "\u2728",
       "accent": "#34d399"
     },
     {
@@ -50,7 +50,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-team/",
-      "icon": "👥",
+      "icon": "\ud83d\udc65",
       "accent": "#22c55e"
     },
     {
@@ -60,7 +60,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile/",
-      "icon": "📁",
+      "icon": "\ud83d\udcc1",
       "accent": "#38bdf8"
     },
     {
@@ -70,7 +70,7 @@
       "status": "Live",
       "category": "Family & Health",
       "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
-      "icon": "🍎",
+      "icon": "\ud83c\udf4e",
       "accent": "#fb7185"
     },
     {
@@ -80,7 +80,7 @@
       "status": "Live",
       "category": "Money & Home",
       "url": "https://autoprod-dev.github.io/proximity/",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "accent": "#8b5cf6"
     },
     {
@@ -90,17 +90,17 @@
       "status": "Live",
       "category": "Games & Fun",
       "url": "https://autoprod-dev.github.io/punchman/",
-      "icon": "🥊",
+      "icon": "\ud83e\udd4a",
       "accent": "#5a92d8"
     },
     {
       "id": "ward-run",
       "name": "Ward Run",
-      "description": "v1.3.2 phone app for the daily ward stock run: POW and Children's sites, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
+      "description": "v1.4.0 phone app for the daily ward stock run: POW wards with delivery days and buildings, Children's site, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
-      "icon": "📦",
+      "icon": "\ud83d\udce6",
       "accent": "#6d28d9"
     },
     {
@@ -110,7 +110,7 @@
       "status": "Test",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -120,7 +120,7 @@
       "status": "Test",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-test/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -130,7 +130,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile-test/",
-      "icon": "🧪",
+      "icon": "\ud83e\uddea",
       "accent": "#f59e0b"
     },
     {
@@ -140,7 +140,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/snootfood-test/",
-      "icon": "🍜",
+      "icon": "\ud83c\udf5c",
       "accent": "#f59e0b"
     },
     {
@@ -150,7 +150,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.lemonsqueezy.com",
-      "icon": "🛒",
+      "icon": "\ud83d\uded2",
       "accent": "#a855f7"
     },
     {
@@ -160,7 +160,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-pipeline/",
-      "icon": "🧭",
+      "icon": "\ud83e\udded",
       "accent": "#2dd4bf"
     },
     {
@@ -170,7 +170,7 @@
       "status": "Prototype",
       "category": "Money & Home",
       "url": null,
-      "icon": "📈",
+      "icon": "\ud83d\udcc8",
       "accent": "#22c55e"
     },
     {
@@ -180,7 +180,7 @@
       "status": "Prototype",
       "category": "Money & Home",
       "url": null,
-      "icon": "🏠",
+      "icon": "\ud83c\udfe0",
       "accent": "#fb923c"
     },
     {
@@ -190,7 +190,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": null,
-      "icon": "📋",
+      "icon": "\ud83d\udccb",
       "accent": "#818cf8"
     },
     {
@@ -200,7 +200,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": null,
-      "icon": "🍳",
+      "icon": "\ud83c\udf73",
       "accent": "#c084fc"
     },
     {
@@ -210,17 +210,17 @@
       "status": "Prototype",
       "category": "Tools",
       "url": null,
-      "icon": "🏆",
+      "icon": "\ud83c\udfc6",
       "accent": "#eab308"
     },
     {
       "id": "sydney-parking-finder",
       "name": "Sydney Parking Finder",
-      "description": "v1.1.0 · Uses GPS to find the nearest 1P to 5P parking in the City of Sydney, with walking directions and optional parked-here reports. Availability is not live sensor data.",
+      "description": "v1.1.0 \u00b7 Uses GPS to find the nearest 1P to 5P parking in the City of Sydney, with walking directions and optional parked-here reports. Availability is not live sensor data.",
       "status": "Prototype",
       "category": "Tools",
       "url": null,
-      "icon": "🅿️",
+      "icon": "\ud83c\udd7f\ufe0f",
       "accent": "#2563eb"
     }
   ]
