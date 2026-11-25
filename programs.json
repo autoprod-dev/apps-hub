@@ -76,7 +76,7 @@
     {
       "id": "proximity",
       "name": "Proximity",
-      "description": "v9.1: flags only research-backed 90%+ picks, with the predicted winner in gold for Ladbrokes. Live AU odds, a daily lucky pick, tracked calls and a local bet ledger.",
+      "description": "v9.1.1: flags only research-backed 90%+ picks, with the predicted winner in gold for Ladbrokes. Live AU odds, a daily lucky pick, tracked calls and a local bet ledger.",
       "status": "Live",
       "category": "Money & Home",
       "url": "https://autoprod-dev.github.io/proximity/",
@@ -86,7 +86,7 @@
     {
       "id": "punchman",
       "name": "Punchman",
-      "description": "v1.0.0 idle ring brawler by Autoprod: punch endless waves, spend gold on upgrades, talents and your crew. No energy.",
+      "description": "v1.0.1 idle ring brawler by Autoprod: punch endless waves, spend gold on upgrades, talents and your crew. No energy.",
       "status": "Live",
       "category": "Games & Fun",
       "url": "https://autoprod-dev.github.io/punchman/",
@@ -96,7 +96,7 @@
     {
       "id": "ward-run",
       "name": "Ward Run",
-      "description": "v1.3.1 phone app for the daily ward stock run: POW and Children's sites, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
+      "description": "v1.3.2 phone app for the daily ward stock run: POW and Children's sites, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
