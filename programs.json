@@ -8,6 +8,7 @@
       "name": "WeightClass HQ",
       "description": "Fitness app for coaches and solo trainees (v1.23.0): food logging, Snap meals, team challenges, an opt-in client Feed and verified coach ratings.",
       "status": "Live",
+      "category": "Business",
       "url": "https://www.weightclassonline.com.au",
       "icon": "💪",
       "accent": "#f97316"
@@ -17,6 +18,7 @@
       "name": "WeightClass Admin",
       "description": "Owner admin page: accounts, access, join dates and how each person signed up.",
       "status": "Live",
+      "category": "Business",
       "url": "https://www.weightclassonline.com.au/app/admin.html",
       "icon": "🛠️",
       "accent": "#f97316"
@@ -26,6 +28,7 @@
       "name": "Prepline",
       "description": "Turn a menu, PDF or spreadsheet into kitchen prep lists sorted by dish, station and day.",
       "status": "Live",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/preplist-sorter/",
       "icon": "🔪",
       "accent": "#22c55e"
@@ -35,6 +38,7 @@
       "name": "Prepline 2027",
       "description": "New Prepline interface, with a universal importer and one-page checklist prints.",
       "status": "Live",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-2027/",
       "icon": "✨",
       "accent": "#34d399"
@@ -44,6 +48,7 @@
       "name": "Prepline Team",
       "description": "Full Prepline, set up for the team to use together.",
       "status": "Live",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-team/",
       "icon": "👥",
       "accent": "#22c55e"
@@ -53,6 +58,7 @@
       "name": "Unifile",
       "description": "Convert and work with almost any file in the browser.",
       "status": "Live",
+      "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile/",
       "icon": "📁",
       "accent": "#38bdf8"
@@ -62,6 +68,7 @@
       "name": "Toddler Food Explorer",
       "description": "Log foods a little one tries and get gentle ideas for what to offer next.",
       "status": "Live",
+      "category": "Family & Health",
       "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
       "icon": "🍎",
       "accent": "#fb7185"
@@ -71,6 +78,7 @@
       "name": "Proximity",
       "description": "v9.1: flags only research-backed 90%+ picks, with the predicted winner in gold for Ladbrokes. Live AU odds, a daily lucky pick, tracked calls and a local bet ledger.",
       "status": "Live",
+      "category": "Money & Home",
       "url": "https://autoprod-dev.github.io/proximity/",
       "icon": "🎯",
       "accent": "#8b5cf6"
@@ -80,6 +88,7 @@
       "name": "Punchman",
       "description": "v1.0.0 idle ring brawler by Autoprod: punch endless waves, spend gold on upgrades, talents and your crew. No energy.",
       "status": "Live",
+      "category": "Games & Fun",
       "url": "https://autoprod-dev.github.io/punchman/",
       "icon": "🥊",
       "accent": "#5a92d8"
@@ -89,6 +98,7 @@
       "name": "Ward Run",
       "description": "v1.3.1 phone app for the daily ward stock run: POW and Children's sites, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
       "status": "Live",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
       "icon": "📦",
       "accent": "#6d28d9"
@@ -98,6 +108,7 @@
       "name": "Prepline Trial",
       "description": "Trial build of Prepline for trying new features before they go into the main app.",
       "status": "Test",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
       "icon": "🧪",
       "accent": "#f59e0b"
@@ -107,6 +118,7 @@
       "name": "Prepline TEST",
       "description": "Test copy of Prepline, including test payments.",
       "status": "Test",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-test/",
       "icon": "🧪",
       "accent": "#f59e0b"
@@ -116,6 +128,7 @@
       "name": "Unifile TEST",
       "description": "Test copy of Unifile, including test payments.",
       "status": "Test",
+      "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile-test/",
       "icon": "🧪",
       "accent": "#f59e0b"
@@ -125,6 +138,7 @@
       "name": "Snootfood",
       "description": "Snap a meal for a fancy menu, a chef roast, or dinner ideas from your fridge.",
       "status": "Test",
+      "category": "Business",
       "url": "https://autoprod-dev.github.io/snootfood-test/",
       "icon": "🍜",
       "accent": "#f59e0b"
@@ -134,6 +148,7 @@
       "name": "Autoprod Store",
       "description": "Lemon Squeezy storefront. Still under review, not taking real payments yet.",
       "status": "Test",
+      "category": "Business",
       "url": "https://autoprod-dev.lemonsqueezy.com",
       "icon": "🛒",
       "accent": "#a855f7"
@@ -143,6 +158,7 @@
       "name": "Prepline Pipeline",
       "description": "From work orders and rosters through to a finished prep list, in ordered steps.",
       "status": "Prototype",
+      "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-pipeline/",
       "icon": "🧭",
       "accent": "#2dd4bf"
@@ -152,6 +168,7 @@
       "name": "Invest Signals",
       "description": "Scores ASX and US shares plus gold and silver, with a plain Looks good, Wait or Avoid label.",
       "status": "Prototype",
+      "category": "Money & Home",
       "url": null,
       "icon": "📈",
       "accent": "#22c55e"
@@ -161,6 +178,7 @@
       "name": "Property Watch",
       "description": "Flags Sydney and Philippines areas where new trains, malls or other works could lift values.",
       "status": "Prototype",
+      "category": "Money & Home",
       "url": null,
       "icon": "🏠",
       "accent": "#fb923c"
@@ -170,6 +188,7 @@
       "name": "Kitchen Roster Planner",
       "description": "Turns a UBS event export into section work orders, allocation and a print pack.",
       "status": "Prototype",
+      "category": "Work & Kitchen",
       "url": null,
       "icon": "📋",
       "accent": "#818cf8"
@@ -179,6 +198,7 @@
       "name": "Kitchen UBS Trial",
       "description": "Private trial of the kitchen UBS workflow, from filter through to a prep list.",
       "status": "Prototype",
+      "category": "Work & Kitchen",
       "url": null,
       "icon": "🍳",
       "accent": "#c084fc"
