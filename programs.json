@@ -1,7 +1,7 @@
 {
   "title": "Autoprod Apps",
   "subtitle": "Every program, one tap away",
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "programs": [
     {
       "id": "weightclass",
@@ -69,7 +69,7 @@
     {
       "id": "proximity",
       "name": "Proximity",
-      "description": "v9: bold colourful redesign. Live AU odds with fair-chance bars, a daily lucky pick, tracked calls with streaks and trophies, value finder, best AU price and a local bet ledger.",
+      "description": "v9.1: flags only research-backed 90%+ picks, with the predicted winner in gold for Ladbrokes. Live AU odds, a daily lucky pick, tracked calls and a local bet ledger.",
       "status": "Live",
       "url": "https://autoprod-dev.github.io/proximity/",
       "icon": "🎯",
