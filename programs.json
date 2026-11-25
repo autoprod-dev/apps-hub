@@ -85,6 +85,15 @@
       "accent": "#5a92d8"
     },
     {
+      "id": "ward-run",
+      "name": "Ward Run",
+      "description": "v1.3.0 phone app for the daily ward stock run: POW and Children's sites, a weekly delivery report (screenshot or print), daily history on this phone, barcode scan and WhatsApp order.",
+      "status": "Live",
+      "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
+      "icon": "📦",
+      "accent": "#6d28d9"
+    },
+    {
       "id": "prepline-trial",
       "name": "Prepline Trial",
       "description": "Trial build of Prepline for trying new features before they go into the main app.",
