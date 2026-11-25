@@ -121,15 +121,6 @@
       "accent": "#f59e0b"
     },
     {
-      "id": "ward-restock",
-      "name": "Ward Restock",
-      "description": "Track IV fluid restock: receive, walk, pick, deliver and order.",
-      "status": "Test",
-      "url": "https://autoprod-dev.github.io/ward-restock-test/",
-      "icon": "💧",
-      "accent": "#38bdf8"
-    },
-    {
       "id": "autoprod-store",
       "name": "Autoprod Store",
       "description": "Lemon Squeezy storefront. Still under review, not taking real payments yet.",
