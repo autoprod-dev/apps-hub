@@ -10,7 +10,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://www.weightclassonline.com.au",
-      "icon": "\ud83d\udcaa",
+      "icon": "💪",
       "accent": "#f97316"
     },
     {
@@ -20,7 +20,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://www.weightclassonline.com.au/app/admin.html",
-      "icon": "\ud83d\udee0\ufe0f",
+      "icon": "🛠️",
       "accent": "#f97316"
     },
     {
@@ -30,7 +30,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/preplist-sorter/",
-      "icon": "\ud83d\udd2a",
+      "icon": "🔪",
       "accent": "#22c55e"
     },
     {
@@ -40,7 +40,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-2027/",
-      "icon": "\u2728",
+      "icon": "✨",
       "accent": "#34d399"
     },
     {
@@ -50,7 +50,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-team/",
-      "icon": "\ud83d\udc65",
+      "icon": "👥",
       "accent": "#22c55e"
     },
     {
@@ -60,7 +60,7 @@
       "status": "Live",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile/",
-      "icon": "\ud83d\udcc1",
+      "icon": "📁",
       "accent": "#38bdf8"
     },
     {
@@ -70,7 +70,7 @@
       "status": "Live",
       "category": "Family & Health",
       "url": "https://autoprod-dev.github.io/toddler-food-explorer/",
-      "icon": "\ud83c\udf4e",
+      "icon": "🍎",
       "accent": "#fb7185"
     },
     {
@@ -80,7 +80,7 @@
       "status": "Live",
       "category": "Money & Home",
       "url": "https://autoprod-dev.github.io/proximity/",
-      "icon": "\ud83c\udfaf",
+      "icon": "🎯",
       "accent": "#8b5cf6"
     },
     {
@@ -90,7 +90,7 @@
       "status": "Live",
       "category": "Games & Fun",
       "url": "https://autoprod-dev.github.io/punchman/",
-      "icon": "\ud83e\udd4a",
+      "icon": "🥊",
       "accent": "#5a92d8"
     },
     {
@@ -100,7 +100,7 @@
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
-      "icon": "\ud83d\udce6",
+      "icon": "📦",
       "accent": "#6d28d9"
     },
     {
@@ -110,7 +110,7 @@
       "status": "Test",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-trial-preview/",
-      "icon": "\ud83e\uddea",
+      "icon": "🧪",
       "accent": "#f59e0b"
     },
     {
@@ -120,7 +120,7 @@
       "status": "Test",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-test/",
-      "icon": "\ud83e\uddea",
+      "icon": "🧪",
       "accent": "#f59e0b"
     },
     {
@@ -130,7 +130,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/unifile-test/",
-      "icon": "\ud83e\uddea",
+      "icon": "🧪",
       "accent": "#f59e0b"
     },
     {
@@ -140,7 +140,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.github.io/snootfood-test/",
-      "icon": "\ud83c\udf5c",
+      "icon": "🍜",
       "accent": "#f59e0b"
     },
     {
@@ -150,7 +150,7 @@
       "status": "Test",
       "category": "Business",
       "url": "https://autoprod-dev.lemonsqueezy.com",
-      "icon": "\ud83d\uded2",
+      "icon": "🛒",
       "accent": "#a855f7"
     },
     {
@@ -160,7 +160,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/prepline-pipeline/",
-      "icon": "\ud83e\udded",
+      "icon": "🧭",
       "accent": "#2dd4bf"
     },
     {
@@ -170,7 +170,7 @@
       "status": "Prototype",
       "category": "Money & Home",
       "url": null,
-      "icon": "\ud83d\udcc8",
+      "icon": "📈",
       "accent": "#22c55e"
     },
     {
@@ -180,7 +180,7 @@
       "status": "Prototype",
       "category": "Money & Home",
       "url": null,
-      "icon": "\ud83c\udfe0",
+      "icon": "🏠",
       "accent": "#fb923c"
     },
     {
@@ -190,7 +190,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": null,
-      "icon": "\ud83d\udccb",
+      "icon": "📋",
       "accent": "#818cf8"
     },
     {
@@ -200,7 +200,7 @@
       "status": "Prototype",
       "category": "Work & Kitchen",
       "url": null,
-      "icon": "\ud83c\udf73",
+      "icon": "🍳",
       "accent": "#c084fc"
     },
     {
@@ -210,17 +210,17 @@
       "status": "Prototype",
       "category": "Tools",
       "url": null,
-      "icon": "\ud83c\udfc6",
+      "icon": "🏆",
       "accent": "#eab308"
     },
     {
       "id": "sydney-parking-finder",
       "name": "Sydney Parking Finder",
-      "description": "v1.1.0 \u00b7 Uses GPS to find the nearest 1P to 5P parking in the City of Sydney, with walking directions and optional parked-here reports. Availability is not live sensor data.",
+      "description": "v1.1.0 · Uses GPS to find the nearest 1P to 5P parking in the City of Sydney, with walking directions and optional parked-here reports. Availability is not live sensor data.",
       "status": "Prototype",
       "category": "Tools",
       "url": null,
-      "icon": "\ud83c\udd7f\ufe0f",
+      "icon": "🅿️",
       "accent": "#2563eb"
     }
   ]
