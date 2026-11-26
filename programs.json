@@ -96,7 +96,7 @@
     {
       "id": "ward-run",
       "name": "Ward Run",
-      "description": "v1.4.4 phone app for the daily ward stock run: Children's code 1306 is now 1306a (saved quantities, ticks and tags are kept). Carry unticked items to the next delivery day, or transfer a selected item or all unticked items to any later day you pick, with merge, a moved-from tag and undo. POW wards with delivery days and buildings, Children's site, Rec 2 station and rooms kept on the list, a week summary in Excel (By item, Item × day and By ward, with POW and Children's on separate sheets), check or uncheck a ward without erasing its list, daily history on this phone, barcode scan and WhatsApp order.",
+      "description": "v1.4.5 phone app for the daily ward stock run: a Stock tab count form and Save for a fresh stocktake (replaces on-hand), a separate Add delivery option per hospital, and live On hand totals (last stocktake plus deliveries minus ticked ward deliveries) for POW and Children's. Children's code 1306 is now 1306a. Carry or transfer unticked items to a later day, with merge, a moved-from tag and undo. Week summary in Excel, check or uncheck a ward without erasing its list, barcode scan and WhatsApp order.",
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
