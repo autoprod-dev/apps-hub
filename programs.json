@@ -96,7 +96,7 @@
     {
       "id": "ward-run",
       "name": "Ward Run",
-      "description": "v1.4.7 phone app for the daily ward stock run. Shared day, week and stock records (no login — anyone with the link can see them); each phone still works offline. First open is a Gerardo / Prabin / Guest picker. A confirm warning appears before live changes, except for Prabin in POW and Gerardo in Children's; Guest always sees it. The Stocktake card shows last stocktake (plus deliveries), delivered today, and on hand now, and Excel/CSV export that view. Ticked eaches convert using the pack size (NxVOL or Each/box in Setup) so on hand is X box + Y ea. Usually needs chips on each ward, History of past weeks, Children's 1306a, carry or transfer, barcode scan and WhatsApp order.",
+      "description": "v1.4.8 phone app for the daily ward stock run. Shared day, week and stock records (no login — anyone with the link can see them); each phone still works offline. On hand is full boxes only (loose packets don’t count); the number is red at 5 boxes or fewer. The Order tab shows on hand now with a blank box quantity — no auto-suggested amounts, WhatsApp in boxes. Weekly summary, History and Excel show packets (ea) and the box equivalent side by side, per ward per item. Each ward’s fluid list puts Popular (most-used from shared history) at the top, then all other fluids, nothing hidden, and the lists are more compact. First open is a Gerardo / Prabin / Guest picker. A confirm warning appears before live changes, except for Prabin in POW and Gerardo in Children’s; Guest always sees it.",
       "status": "Live",
       "category": "Work & Kitchen",
       "url": "https://autoprod-dev.github.io/ap-static/08853ba72411803945542879729653f3/",
